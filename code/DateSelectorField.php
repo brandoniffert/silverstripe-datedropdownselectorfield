@@ -14,7 +14,7 @@ class DateSelectorField extends CompositeField {
 	protected $year;
 
 	public function __construct($name, $title = null, $value = null, $modifier = null) {
-		$this->name = $name .'[' . $modifier . ']';
+		$this->name = $name;
 
 		$this->setTitle($title);
 		$this->modifier = $modifier;
