@@ -55,8 +55,8 @@ class DateSelectorField extends CompositeField {
 		}
 
 		$fields = array(
-			$this->day = new DropdownField($this->name . '[Day]', '', $dayArray),
 			$this->month = new DropdownField($this->name . '[Month]', '', $monthArray),
+			$this->day = new DropdownField($this->name . '[Day]', '', $dayArray),
 			$this->year = new DropdownField($this->name . '[Year]', '', $yearArray)
 		);
 
